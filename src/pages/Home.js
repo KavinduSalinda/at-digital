@@ -32,7 +32,7 @@ export default function Home() {
             </div>
             <div className="col-span-3 lg:py-[100px] md:py-[50px] md:pl-[50px] lg:pl-[100px] flex flex-col">
               <div className="text-purple-700 text-2xl">
-                Web & Mobile App Development
+                <b>Web & Mobile App Development</b>
               </div>
               <div className="py-4">
                 Your web and mobile Apps are pieces of the puzzle to grow your
@@ -49,7 +49,7 @@ export default function Home() {
           <div className="md:grid grid-cols-5 w-[80vw] justify-center items-center">
             <div className="col-span-3 lg:py-[100px] md:py-[50px] md:pr-[50px] lg:pr-[100px] flex flex-col">
               <div className="text-purple-700 text-2xl">
-                Digital Strategy Consulting
+                <b>Digital Strategy Consulting</b>
               </div>
               <div className="py-4">
                 Your digital strategy should complement the overall marketing

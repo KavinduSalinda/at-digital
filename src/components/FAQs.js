@@ -5,7 +5,7 @@ export default function FAQs() {
     <div>
       <div className="p-3 w-[90vw] max-w-[600px]">
         <div className="text-center text-2xl text-purple-600 pb-3">
-          Frequently asked questions
+          <b>Frequently asked questions</b>
         </div>
         <div
           className="flex justify-between p-3 text-purple-600"
