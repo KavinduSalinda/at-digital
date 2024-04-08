@@ -3,7 +3,7 @@ import React from "react";
 export default function FAQs() {
   return (
     <div>
-      <div className="border-dashed border-purple-600 border-2 p-3 w-[600px] h-[335px] rounded-lg">
+      <div className="p-3 w-[90vw] max-w-[600px]">
         <div className="text-center text-2xl text-purple-600 pb-3">
           Frequently asked questions
         </div>

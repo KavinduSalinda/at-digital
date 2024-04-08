@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="w-[1440px]">
+    <div className="">
       <NavBar />
       {children}
       <Footer />
