@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="">
+    <>
       <NavBar />
       {children}
       <Footer />
-    </div>
+    </>
   );
 }
