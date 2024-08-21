@@ -7,11 +7,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#6B3CC9", // Add your primary color here
-        // primary: "#ff0000", // Add your primary color here
         secondary: "#F28D35", // Add your secondary color here
-        // secondary: "#ff0000", // Add your secondary color here
         custom_Ash: "#FAF8FF", // component background
-        
         textSecondary: "#4B5563"
       },
       screens: {

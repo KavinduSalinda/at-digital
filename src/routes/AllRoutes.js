@@ -9,7 +9,7 @@ export default function AllRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/">
-          {/* <Route path="/" element={<Layout />}> */}
+        {/* <Route path="/at-digital"> // for production deploy */}
           <Route index element={<Home />} />
         </Route>
       </Routes>
