@@ -11,9 +11,9 @@ export default function Home() {
     <Layout>
       <main>
         <header>
-          <img src={homeImage} alt="Home banner" className="md:h-[90vh] w-full"/>
+          <img src={homeImage} alt="Home banner" className="md:h-[90%] w-full"/>
           <div className="relative">
-            <div className="md:h-[10hv] lg:left-[5vw] bottom-[100px] bg-gradient-to-br from-cyan-400 to-green-400 lg:absolute w-[100vw] lg:w-[45vw] z-10">
+            <div className="md:h-[10hv] lg:left-[5vw] bottom-[100px] bg-gradient-to-br from-cyan-400 to-green-400 lg:absolute w-[100vw] lg:w-[45%] z-10">
               <div className="text-white text-5xl p-6">
                 <b>
                   We crush your competitors, goals, and sales records - without
@@ -28,7 +28,7 @@ export default function Home() {
         </header>
 
         <section className="flex items-center flex-col text-center md:text-left">
-          <article className="md:grid grid-cols-5 w-[80vw] justify-center items-center pb-8 md:pb-0">
+          <article className="md:grid grid-cols-5 mx-[100px] justify-center items-center pb-8 md:pb-0">
             <div className="col-span-2 flex justify-center md:block">
               <img src={laptopImage} alt="Laptop" />
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
           </article>
 
-          <article className="md:grid grid-cols-5 w-[80vw] justify-center items-center">
+          <article className="md:grid grid-cols-5 mx-[100px] justify-center items-center">
             <div className="col-span-3 lg:py-[100px] md:py-[50px] md:pr-[50px] lg:pr-[100px] flex flex-col">
               <h2 className="text-primary text-2xl">
                 <b>Digital Strategy Consulting</b>
