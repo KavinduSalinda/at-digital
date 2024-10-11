@@ -11,9 +11,9 @@ export default function Home() {
     <Layout>
       <main>
         <header>
-          <img src={homeImage} alt="Home banner" className="md:h-[90%] w-full"/>
+          <img src={homeImage} alt="Home banner" className="w-full max-h-[90vh]"/>
           <div className="relative">
-            <div className="md:h-[10hv] lg:left-[5vw] bottom-[100px] bg-gradient-to-br from-cyan-400 to-green-400 lg:absolute w-[100vw] lg:w-[45%] z-10">
+            <div className="md:h-[10hv] lg:left-[5vw] md:bottom-[50px] bg-gradient-to-br from-cyan-400 to-green-400 lg:absolute w-[100vw] lg:w-[45%] z-10">
               <div className="text-white text-5xl p-6">
                 <b>
                   We crush your competitors, goals, and sales records - without
